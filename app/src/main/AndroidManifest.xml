@@ -19,7 +19,8 @@
         </activity>
         <activity android:name=".CrossFading" />
         <activity android:name=".IconTransition" />
-        <activity android:name=".SimpleTranstion"></activity>
+        <activity android:name=".SimpleTranstion" />
+        <activity android:name=".Sliding"></activity>
     </application>
 
 </manifest>

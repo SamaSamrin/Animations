@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
 
     private ListView lv;
     private ArrayAdapter<String> adapter;
-    private String[] animations_array = {"1. Simple Transition", "2. Icon Transition", "3. CrossFading"};
+    private String[] animations_array = {"1. Simple Transition", "2. Icon Transition","3. Sliding", "4. CrossFading"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent i ;
-                if(position==2) {
+                if(position==3) {
                     i = new Intent(MainActivity.this, CrossFading.class);
                     startActivity(i);
                 }
@@ -40,6 +40,10 @@ public class MainActivity extends Activity {
                 }
                 else if(position==0){
                     i = new Intent(MainActivity.this, SimpleTranstion.class);
+                    startActivity(i);
+                }
+                else if(position==2){
+                    i = new Intent(MainActivity.this, Sliding.class);
                     startActivity(i);
                 }
             }

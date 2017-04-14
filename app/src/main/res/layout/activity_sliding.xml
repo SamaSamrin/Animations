@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.animations.Sliding">
+
+    <Button
+        android:id="@+id/up_slider_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="114dp"
+        android:text="Up" />
+
+    <Button
+        android:id="@+id/down_slider_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/up_slider_button"
+        android:layout_below="@+id/up_slider_button"
+        android:layout_marginTop="86dp"
+        android:text="Down" />
+
+    <TextView
+        android:id="@+id/text_to_slide"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="64dp"
+        android:background="@color/my_yellow"
+        android:gravity="fill"
+        android:text="Click to slide this up or down"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Body1"
+        android:layout_below="@+id/up_slider_button"
+        android:layout_alignParentEnd="true" />
+</android.widget.RelativeLayout>
