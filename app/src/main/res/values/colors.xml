@@ -5,4 +5,45 @@
     <color name="colorAccent">#ff4081</color>
     <color name="app_green">#c8fbda</color>
     <color name="my_yellow">#f0fd78</color>
+
+    <color name="previousResultsBackg">#FFFF00</color>
+    <color name="currentRoutineBackg">#C6FF00</color>
+    <color name="currentMarksheetBackg">#00B0FF</color>
+    <color name="courseMaterialsBackg">#BA68C8</color>
+    <color name="calendarBackg">#EC407A</color>
+    <color name="notificationsBackg">#FF3D00</color>
+
+    <color name="courseIdBack">#004BA0</color>
+    <color name="gradeBack">#63A4FF</color>
+    <color name="gpaBack">#1976D2</color>
+
+    <color name="courseIdValueBack">#FFFF00</color>
+    <color name="gradeValueBack">#FFFF52</color>
+    <color name="gpaValueBack">#ffd600</color>
+
+    <color name="blackTextColor">#000000</color>
+    <color name="whiteTextColor">#ffffff</color>
+    <!-- PASTEL COLORS -->
+    <color name="pastelPurple">#E1BEE7</color>
+    <color name="purple">#BA68C8</color>
+    <color name="lightBlue">#bbdefb</color>
+    <color name="lightGreen">#CCFF90</color>
+    <color name="darkGreen">#64DD17</color>
+    <color name="lightYellow">#F4FF81</color>
+    <color name="lightPeach">#FFCCBC</color>
+    <color name="peach">#FF8A80</color>
+    <color name="pastelGreen">#69F0AE</color>
+    <color name="lightPink">#FFCDD2</color>
+    <color name="coolGray">#B0BEC5</color>
+    <color name="lightGray">#EFEBE9</color>
+    <color name="colorAccentFaded">#fee66a</color>
+    <!-- DARK COLORS -->
+    <color name="darkerGreen">#1B5E20</color>
+    <color name="darkRed">#D60000</color>
+    <!-- BRIGHT COLORS -->
+    <color name="brightYellow">#ffff00</color>
+    <color name="brightGreen">#76FF03</color>
+    <color name="brightOrange">#ff8f00</color>
+    <color name="brightSkyBlue">#00c4ff</color>
 </resources>
+

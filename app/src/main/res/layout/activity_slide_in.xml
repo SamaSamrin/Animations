@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.animations.Slide_in">
+
+    <ImageView
+        android:id="@+id/slide_in_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/canvas_circle"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+</android.widget.FrameLayout>

@@ -20,7 +20,10 @@
         <activity android:name=".CrossFading" />
         <activity android:name=".IconTransition" />
         <activity android:name=".SimpleTranstion" />
-        <activity android:name=".Sliding"></activity>
+        <activity android:name=".Sliding" />
+        <activity android:name=".Slide_in" />
+        <activity android:name=".Rotate" />
+        <activity android:name=".TabHostSwipe"></activity>
     </application>
 
 </manifest>
